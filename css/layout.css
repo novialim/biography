@@ -1,0 +1,394 @@
+/* Custom Fonts */
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('Fonts/bebasneue-webfont.eot');
+	src: url('Fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'), url('Fonts/bebasneue-webfont.woff') format('woff'), url('Fonts/bebasneue-webfont.ttf') format('truetype'), url('Fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Base */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.3em;
+	background: white;
+	color: black;
+	font-size: 16px;
+}
+p {
+	word-spacing: 0.125em;
+	hyphenate: auto;
+	hyphenate-lines: 3;
+	line-height: 1.0em;
+}
+pre {
+	white-space: pre;
+}
+ul, ol {
+	margin-left: 1px;
+}
+/* html 5 */
+article, aside, header, hgroup, nav, figure, section, footer {
+	display: block;
+}
+/*--- HEADINGS ---*/
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.750em; 
+	line-height: 1; 
+}
+h2 {
+	font-size: 1.25em; 
+	line-height: 1.2em; 
+}
+h3 {
+	font-size: 1.125em; 
+	line-height: 1.333em; 
+}
+h4, h5, h6 {
+	font-size: 1em; 
+	line-height: 1.5em; 
+}
+
+body {
+	background: url(../img/bg-tile.jpg);
+}
+.container {
+	background: #fff;
+	color: #555;
+	border: 1px solid #e2e2e2;
+	border-top: 10px solid #333333;
+	border-radius: 5px;
+	box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.2);
+	margin-top:24px;
+}
+
+.cvcontent {
+	padding-left: 10px;
+	padding-right:20px;
+}
+
+.columns, column {
+	margin-bottom: 72px;
+}
+.columns.first, column.first {
+	margin-top: 72px;
+}
+.MTm48 {
+	margin-top: -48px;
+}
+/*	Header & Intro	*/
+	
+#header {
+	position: relative;
+}
+#header.sixteen.columns {
+	background: #d64747;
+	margin: 0px;
+	width: 100%;
+}
+.inner {
+	margin: 10px 10px;
+	background: url(../images/avatar.jpg) no-repeat;
+	padding-left: 155px;
+}
+#avatar {
+	height: 125px;
+	width: 125px;
+}
+.social-top {
+	list-style: none;
+	margin-top: 40px;
+	float: left;
+	margin-left: 30px;
+}
+.social-top li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+.social-top li:first-child {
+}
+.social-top li img {
+	position: absolute;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+#header h1 {
+	text-align: left;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: normal;
+}
+#header h2 {
+	font-weight: normal;
+	color: #fff8c7;
+	margin-bottom: 0px;
+}
+.MR10 {
+	margin-right: 10px;
+}
+/*	Work	*/
+#work h2 {
+	background-image: url('../images/lightbulb_15x24.png');
+}
+/*	Skills */
+	
+	
+	
+#skillset ul {
+	list-style: none outside;
+}
+/*	Work/Content Items	*/
+	
+	
+	
+.work {
+	position: relative;
+	margin-bottom: 48px;
+}
+.nomarginbottom {
+	margin-bottom: 0px !important;
+}
+h3 {
+	color: #3b3b3b;
+	font-weight: bold;
+}
+.work h3 em {
+	font-weight: normal;
+	color: #d64747;
+	font-size: 13px;
+}
+.edu h3 {
+	color: #099;
+}
+.meta_date {
+	font-size: 12px;
+	margin-bottom: 24px;
+	margin-top: -24px;
+}
+.meta_blurb {
+	margin: 0px;
+}
+/*	General styles */
+h1 {
+	font-family: "BebasNeueRegular", Arial, Times New Roman, serif;
+}
+h2 {
+	display: inline-block;
+	color: #d64747;
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight: normal;
+}
+a, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+}
+.list {
+	color: #d64747;
+}
+.MLR0 {
+	width: 100%;
+}
+#footer.columns {
+	background: #d64747;
+	margin: 0;
+}
+#footer .columns {
+	margin-top: 72px !important;
+}
+#footer .about {
+	margin-left: 30px;
+}
+#footer {
+	color: #fff;
+}
+#footer h2, #footer a {
+	color: #FFF8C7;
+}
+#footer h2 {
+	margin-bottom: 24px;
+}
+#footer a:hover {
+	color: #2b2b2b;
+}
+#footer .contact ul {
+	list-style: circle inside;
+}
+/* Skills bar */
+
+.bars ul {
+	list-style: none;
+}
+.bars .skill-label {
+	display: block;
+}
+.bars .skill-level {
+	display: inline-block;
+	width: 0px;
+	height: 13px;
+	background: url('../images/bar.png') repeat-x;
+	border-radius: 4px;
+}
+.bars .skill-percent {
+	font-size: 12px;
+	font-weight: bold;
+}
+#strengths ul {
+	margin: 0;
+	padding: 0;
+}
+#strengths ul li {
+	background-position: left center;
+	background-repeat: no-repeat;
+	list-style: circle;
+	list-style-position: inside;
+	color: #d64747;
+	padding-bottom: 10px;
+}
+#footer-for-print {
+	display: none;
+}
+#footer-for-print ul {
+}
+#footer-for-print li {
+	float: left;
+	list-style: circle;
+	list-style-position: inside;
+}
+.hidden {
+	display: none;
+}
+.align-right, .align-right h2 {
+	text-align: right;
+}
+.for-tblt {
+	padding-left: 0px;
+}
+
+/* #Media Queries
+================================================== */
+	
+	/* iPad Portrait/Browser */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+.inner {
+	margin: 48px 10px;
+	background: url(../images/avatar.jpg) no-repeat;
+	padding-left: 145px;
+}
+#footer .eight.columns {
+	width: 758px;
+}
+#footer .about {
+	margin-left: 10px;
+}
+#footer .twitter, #footer .contact {
+	margin-top: 0px !important;
+	width: 758px !important;
+}
+.for-tblt {
+	padding-left: 144px;
+}
+}
+	
+	/* Mobile/Browser */
+	@media only screen and (max-width: 767px) {
+#header h1, .align-right, h2 {
+	text-align: left !important;
+}
+.inner {
+	margin: 48px 10px;
+	background: url(../images/avatar.jpg) no-repeat;
+	padding-left: 145px;
+}
+#intro .three.columns {
+	margin-bottom: 0px;
+}
+#header h2 {
+	margin-left: -145px;
+}
+.social-top {
+	margin-left: 6px;
+	margin-bottom: 24px;
+	margin-top: 0px;
+}
+#intro .columns, #skillset .columns, #experience .columns, #education .columns, #strengths .columns {
+	width: 400px;
+	margin-left: 10px;
+}
+#footer .eight.columns, #footer .four.columns {
+	width: 400px !important;
+	margin-left: 10px;
+}
+#footer .twitter, #footer .contact {
+	margin-top: 0px !important;
+}
+h2 {
+	display: block;
+	background-position: right center;
+}
+.work h3 em {
+	display: block;
+}
+.thirteen.columns, .six.columns {
+	margin-top: 0px !important;
+}
+.three.columns {
+	margin-bottom: 24px !important;
+}
+}
+	
+	/* Mobile Landscape/Browser */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+	
+	/* Mobile Portrait Only */
+	@media only screen and (max-width: 479px) {
+#avatar {
+	width: 100px;
+	height: 100px;
+}
+#header {
+	background: #fff url("../images/avatar_light.jpg") no-repeat center center;
+	background-size: 100%;
+}
+#header h1 {
+}
+.ten.columns, #footer .eight.columns, #footer .four.columns {
+	width: 240px !important;
+}
+.container {
+}
+}
+	
+	
+	/* Anything smaller than standard 960 */
+	@media only screen and (max-width: 959px) {
+}
+	
+	/* iPad Portrait Only */
+	@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {
+}
+	
+	/* Mobile Only */
+	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {
+}
+	
+	/* Mobile Landscape Only */
+	@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {
+}

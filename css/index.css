@@ -1,0 +1,133 @@
+/* Inspired by http://themesforce.com/themeforest-3089013-responsive-html5-css3-resume-template-risumey*/
+/* Custom Fonts */
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('Fonts/bebasneue-webfont.eot');
+	src: url('Fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'), url('Fonts/bebasneue-webfont.woff') format('woff'), url('Fonts/bebasneue-webfont.ttf') format('truetype'), url('Fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Base */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5em;
+	background: white;
+	color: black;
+	font-size: 16px;
+}
+
+p{
+	word-spacing: 0.125em;
+	hyphenate: auto;
+	hyphenate-lines: 3;
+	line-height: 1em;
+}
+
+pre {
+	white-space: pre;
+}
+ul, ol {
+	margin-left: 1px;
+}
+/* html 5 */
+article, aside, header, hgroup, nav, figure, section, footer {
+	display: block;
+}
+/*--- HEADINGS ---*/
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.750em; 
+	line-height: 1; 
+}
+h2 {
+	font-size: 1.25em; 
+	line-height: 1.2em; 
+}
+h3 {
+	font-size: 1.125em; 
+	line-height: 1.333em; 
+}
+h4, h5, h6 {
+	font-size: 1em; 
+	line-height: 1.5em; 
+}
+
+body {
+	background: url(../img/bg-tile.jpg);
+}
+
+.container {
+	background: #fff;
+	color: #555;
+	border: 1px solid #e2e2e2;
+	border-top: 10px solid #333333;
+	border-radius: 5px;
+	box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 24px;
+}
+
+
+
+/* Header & Intro */
+
+#header {
+	position: relative;
+}
+
+#header.sixteen.columns {
+	background: #ce0f6c;
+	margin: 0px;
+	width: 100%;
+}
+
+.inner {
+	margin: 48px 30px;
+	background: url(../img/avatar.jpg) no-repeat;
+	padding-left: 155px;
+}
+
+.social-top {
+	list-style:none;
+	margin-top: 16px;
+	float: left;
+	margin-left: 30px;
+}
+
+.social-top li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+
+.social-top li: first-child{}
+
+.social-top li img {
+	position: absolute;
+}
+
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+#header h1 {
+	text-align: left;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: normal;
+}
+#header h2 {
+	font-weight: normal;
+	color: #fff8c7;
+	margin-bottom: 0px;
+}
